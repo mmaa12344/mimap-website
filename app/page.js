@@ -3,7 +3,7 @@ export default function MimapWebsite() {
     <div className="min-h-screen bg-white text-slate-900 font-sans">
       {/* SEO Meta Tags */}
       <head>
-        <title>Mimap | Professional Bookkeeping Services for U.S. Businesses</title>
+        <title>True Books HQ | Professional Bookkeeping Services for U.S. Businesses</title>
         <meta
           name="description"
           content="Modern bookkeeping services for U.S. small businesses. QuickBooks experts, monthly reports, reconciliations, and stress-free accounting support."
@@ -22,7 +22,7 @@ export default function MimapWebsite() {
               M
             </div>
             <div>
-              <h1 className="font-bold text-2xl tracking-tight">Mimap</h1>
+              <h1 className="font-bold text-2xl tracking-tight">True Books HQ </h1>
               <p className="text-xs text-slate-500 -mt-1">Bookkeeping Agency</p>
             </div>
           </div>
@@ -240,7 +240,7 @@ export default function MimapWebsite() {
             </h2>
 
             <p className="mt-8 text-xl text-slate-600 leading-relaxed">
-              Mimap helps U.S. businesses simplify bookkeeping with organized financial systems, monthly reporting, and cloud-based accounting tools.
+              True Books HQ  helps U.S. businesses simplify bookkeeping with organized financial systems, monthly reporting, and cloud-based accounting tools.
             </p>
 
             <div className="mt-10 grid grid-cols-2 gap-6">
@@ -257,7 +257,7 @@ export default function MimapWebsite() {
           </div>
 
           <div className="bg-gradient-to-br from-blue-700 to-emerald-500 rounded-[40px] p-12 text-white shadow-2xl">
-            <h3 className="text-4xl font-bold">Why Businesses Choose Mimap</h3>
+            <h3 className="text-4xl font-bold">Why Businesses Choose True Books HQ </h3>
 
             <ul className="mt-10 space-y-6 text-lg text-blue-50 leading-relaxed">
               <li>✔ Dedicated bookkeeping support</li>
@@ -278,7 +278,7 @@ export default function MimapWebsite() {
           </h2>
 
           <p className="mt-6 text-xl text-slate-300 leading-relaxed">
-            Schedule a free consultation and discover how Mimap can help your business stay financially organized.
+            Schedule a free consultation and discover how True Books HQ  can help your business stay financially organized.
           </p>
 
           <form
@@ -331,13 +331,13 @@ export default function MimapWebsite() {
               M
             </div>
             <div>
-              <h3 className="font-bold text-white text-xl">Mimap</h3>
+              <h3 className="font-bold text-white text-xl">True Books HQ </h3>
               <p className="text-sm text-slate-500">Professional Bookkeeping Agency</p>
             </div>
           </div>
 
           <div className="text-sm text-center md:text-right">
-            <p>© 2026 Mimap. All rights reserved.</p>
+            <p>© 2026 True Books HQ . All rights reserved.</p>
             <p className="mt-1">Remote Bookkeeping Services for U.S. Businesses</p>
           </div>
         </div>
