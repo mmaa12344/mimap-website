@@ -6,7 +6,7 @@ export default function MimapWebsite() {
         <title>True Books HQ | Professional Bookkeeping Services for U.S. Businesses</title>
         <meta
           name="description"
-          content="Modern bookkeeping services for U.S. small businesses. QuickBooks experts, monthly reports, reconciliations, and stress-free accounting support."
+          content="helping small businesses across the United States stay organized, compliant, and financially confident. QuickBooks experts, monthly reports, reconciliations, and stress-free accounting support."
         />
         <meta
           name="keywords"
@@ -23,7 +23,7 @@ export default function MimapWebsite() {
             </div>
             <div>
               <h1 className="font-bold text-2xl tracking-tight">True Books HQ </h1>
-              <p className="text-xs text-slate-500 -mt-1">Bookkeeping Agency</p>
+              <p className="text-xs text-slate-500 -mt-1">Bookkeeping & Tax Services for US Small Businesses</p>
             </div>
           </div>
 
@@ -58,7 +58,7 @@ export default function MimapWebsite() {
             </h2>
 
             <p className="mt-8 text-xl text-slate-600 leading-relaxed max-w-xl">
-              Accurate books, monthly reports, reconciliations, and stress‑free finances — powered remotely by experienced bookkeeping professionals.
+              Accurate books, monthly reports, reconciliations, and stress‑free finances — Based in St. Petersburg, Florida — serving businesses across the United States remotely..
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4">
@@ -269,7 +269,140 @@ export default function MimapWebsite() {
           </div>
         </div>
       </section>
+      <section className="py-24 bg-gray-50">
+  <div className="max-w-6xl mx-auto px-6">
 
+    <h2 className="text-4xl font-bold text-center mb-6">
+      Bookkeeping & Tax Services
+    </h2>
+
+    <p className="text-center text-gray-600 max-w-3xl mx-auto mb-16">
+      TrueBooksHQ provides professional bookkeeping, QuickBooks support,
+      financial reporting, and tax preparation services for small businesses
+      across the United States.
+    </p>
+
+    <div className="grid md:grid-cols-3 gap-8">
+
+      <div className="bg-white p-8 rounded-2xl shadow-sm">
+        <h3 className="text-2xl font-semibold mb-4">
+          Monthly Bookkeeping
+        </h3>
+        <p className="text-gray-600">
+          Accurate monthly bookkeeping services including transaction
+          categorization, reconciliations, and financial reports for small businesses.
+        </p>
+      </div>
+
+      <div className="bg-white p-8 rounded-2xl shadow-sm">
+        <h3 className="text-2xl font-semibold mb-4">
+          QuickBooks Online Support
+        </h3>
+        <p className="text-gray-600">
+          Expert QuickBooks Online bookkeeping support to help businesses
+          maintain clean and organized financial records.
+        </p>
+      </div>
+
+      <div className="bg-white p-8 rounded-2xl shadow-sm">
+        <h3 className="text-2xl font-semibold mb-4">
+          Catch-Up Bookkeeping
+        </h3>
+        <p className="text-gray-600">
+          Behind on your books? We help businesses organize and clean up
+          overdue bookkeeping and financial records.
+        </p>
+      </div>
+
+      <div className="bg-white p-8 rounded-2xl shadow-sm">
+        <h3 className="text-2xl font-semibold mb-4">
+          Tax Preparation
+        </h3>
+        <p className="text-gray-600">
+          Reliable tax preparation services for small businesses and entrepreneurs
+          across the United States.
+        </p>
+      </div>
+
+      <div className="bg-white p-8 rounded-2xl shadow-sm">
+        <h3 className="text-2xl font-semibold mb-4">
+          Financial Reporting
+        </h3>
+        <p className="text-gray-600">
+          Monthly financial statements and reporting to help business owners
+          understand and manage their finances with confidence.
+        </p>
+      </div>
+
+      <div className="bg-white p-8 rounded-2xl shadow-sm">
+        <h3 className="text-2xl font-semibold mb-4">
+          Remote Bookkeeping Services
+        </h3>
+        <p className="text-gray-600">
+          Based in St. Petersburg, Florida, serving businesses remotely
+          throughout the United States.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section className="py-24">
+  <div className="max-w-4xl mx-auto px-6">
+    <h2 className="text-4xl font-bold text-center mb-12">
+      Frequently Asked Questions
+    </h2>
+
+    <div className="space-y-8">
+
+      <div>
+        <h3 className="text-xl font-semibold">
+          Do you work with QuickBooks Online?
+        </h3>
+        <p className="text-gray-600 mt-2">
+          Yes. We specialize in QuickBooks Online bookkeeping and monthly financial management for small businesses.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-semibold">
+          Do you offer monthly bookkeeping services?
+        </h3>
+        <p className="text-gray-600 mt-2">
+          Yes. We provide ongoing monthly bookkeeping, reconciliations, and financial reporting.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-semibold">
+          Can you help with catch-up bookkeeping?
+        </h3>
+        <p className="text-gray-600 mt-2">
+          Absolutely. We help businesses organize and clean up overdue bookkeeping records.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-semibold">
+          Do you provide tax preparation services?
+        </h3>
+        <p className="text-gray-600 mt-2">
+          Yes. We offer tax preparation support for small businesses and entrepreneurs across the United States.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-xl font-semibold">
+          Where is TrueBooksHQ located?
+        </h3>
+        <p className="text-gray-600 mt-2">
+          TrueBooksHQ is based in St. Petersburg, Florida and serves clients remotely across the United States.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
       {/* Contact */}
       <section id="contact" className="py-24 bg-slate-900 text-white">
         <div className="max-w-4xl mx-auto px-6 text-center">
