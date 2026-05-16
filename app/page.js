@@ -19,7 +19,7 @@ export default function MimapWebsite() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-blue-700 to-emerald-500 flex items-center justify-center text-white font-bold text-lg shadow-lg">
-              M
+              T
             </div>
             <div>
               <h1 className="font-bold text-2xl tracking-tight">True Books HQ </h1>
