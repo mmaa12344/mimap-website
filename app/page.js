@@ -282,11 +282,12 @@ export default function MimapWebsite() {
           </p>
 
           <form
-            name="contact"
-            method="POST"
-            data-netlify="true"
-            className="mt-14 grid gap-6"
-          >
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  action="/success"
+  className="mt-14 grid gap-6"
+>
             <input type="hidden" name="form-name" value="contact" />
 
             <input
