@@ -189,7 +189,7 @@ export default function BookkeeperBlogArticle() {
         </p>
 
         <a
-          href="/#contact"
+          href="https://truebookshq.com/"
           className="inline-block bg-brand-600 hover:bg-brand-400 transition-colors duration-200 text-brand-50 text-sm font-semibold tracking-wide px-7 py-2.5 rounded-lg"
         >
           Contact Us →
