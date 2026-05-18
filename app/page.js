@@ -1,9 +1,59 @@
-import Link from "next/link"
+"use client";
+
+import Link from "next/link";
+import Head from "next/head";
+
 export default function MimapWebsite() {
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+
+    const form = e.target;
+    const submitBtn = form.querySelector('button[type="submit"]');
+
+    const formData = new FormData(form);
+
+    formData.append(
+      "access_key",
+      "a184610b-db5b-420c-ac6f-74490d9f72f1"
+    );
+
+    const originalText = submitBtn.textContent;
+
+    submitBtn.textContent = "Sending...";
+    submitBtn.disabled = true;
+
+    try {
+      const response = await fetch(
+        "https://api.web3forms.com/submit",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
+
+      const data = await response.json();
+
+      if (response.ok) {
+        alert("Message sent successfully!");
+        form.reset();
+      } else {
+        alert(data.message);
+      }
+
+    } catch (error) {
+      alert("Something went wrong.");
+    } finally {
+      submitBtn.textContent = originalText;
+      submitBtn.disabled = false;
+    }
+  }
+
   return (
+
     <div className="min-h-screen bg-white text-slate-900 font-sans">
       {/* SEO Meta Tags */}
-      <head>
+      <Head>
         <title>True Books HQ | Professional Bookkeeping Services for U.S. Businesses</title>
         <meta
           name="description"
@@ -13,7 +63,7 @@ export default function MimapWebsite() {
           name="keywords"
           content="bookkeeping services USA, QuickBooks bookkeeper, online bookkeeping, bookkeeping agency, remote bookkeeping"
         />
-      </head>
+      </Head>
 
       {/* Navbar */}
       <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-100">
@@ -469,14 +519,9 @@ export default function MimapWebsite() {
           </p>
 
           <form
-  name="contact"
-  method="POST"
-  data-netlify="true"
-  action="/success"
+  onSubmit={handleSubmit}
   className="mt-14 grid gap-6"
 >
-            <input type="hidden" name="form-name" value="contact" />
-
             <input
               type="text"
               name="name"
@@ -494,12 +539,18 @@ export default function MimapWebsite() {
             />
 
             <textarea
-              name="message"
+  name="message"
+  required
               placeholder="Tell us about your business"
               rows="5"
               className="bg-white text-slate-900 rounded-2xl px-6 py-4 outline-none"
             ></textarea>
-
+            <input
+  type="checkbox"
+  name="botcheck"
+  className="hidden"
+  style={{ display: "none" }}
+/>
             <button
               type="submit"
               className="bg-blue-700 hover:bg-blue-800 transition py-4 rounded-2xl font-semibold text-lg"
