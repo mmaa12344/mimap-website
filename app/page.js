@@ -1,3 +1,4 @@
+import Link from "next/link"
 export default function MimapWebsite() {
   return (
     <div className="min-h-screen bg-white text-slate-900 font-sans">
@@ -25,6 +26,7 @@ export default function MimapWebsite() {
               <h1 className="font-bold text-2xl tracking-tight">True Books HQ </h1>
               <p className="text-xs text-slate-500 -mt-1">Bookkeeping & Tax Services for US Small Businesses</p>
             </div>
+
           </div>
 
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
@@ -32,6 +34,7 @@ export default function MimapWebsite() {
             <a href="#pricing" className="hover:text-blue-700 transition">Pricing</a>
             <a href="#about" className="hover:text-blue-700 transition">About</a>
             <a href="#contact" className="hover:text-blue-700 transition">Contact</a>
+            <Link href="/blog">Blog</Link>
           </nav>
 
           <a
@@ -343,6 +346,57 @@ export default function MimapWebsite() {
           throughout the United States.
         </p>
       </div>
+
+    </div>
+  </div>
+</section>
+<section className="py-24 bg-white">
+  <div className="max-w-6xl mx-auto px-6">
+
+    <h2 className="text-4xl font-bold mb-12 text-center">
+      Latest Articles
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-8">
+
+      <Link
+        href="/blog/what-does-a-bookkeeper-do"
+        className="border rounded-2xl p-8 hover:shadow-lg transition"
+      >
+        <h3 className="text-2xl font-semibold mb-4">
+          What Does a Bookkeeper Do?
+        </h3>
+
+        <p className="text-gray-600">
+          Learn how bookkeeping helps businesses stay organized and financially healthy.
+        </p>
+      </Link>
+
+      <Link
+        href="/blog/quickbooks-online-tips"
+        className="border rounded-2xl p-8 hover:shadow-lg transition"
+      >
+        <h3 className="text-2xl font-semibold mb-4">
+          QuickBooks Online Tips
+        </h3>
+
+        <p className="text-gray-600">
+          Helpful QuickBooks Online tips for small business owners.
+        </p>
+      </Link>
+
+      <Link
+        href="/blog/catch-up-bookkeeping-guide"
+        className="border rounded-2xl p-8 hover:shadow-lg transition"
+      >
+        <h3 className="text-2xl font-semibold mb-4">
+          Catch-Up Bookkeeping Guide
+        </h3>
+
+        <p className="text-gray-600">
+          Learn how catch-up bookkeeping helps businesses clean up overdue records.
+        </p>
+      </Link>
 
     </div>
   </div>
