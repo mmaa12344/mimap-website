@@ -241,11 +241,11 @@ export default function MimapWebsite() {
 
               <div className="mt-8 flex items-end justify-center gap-1">
                 <span className="text-2xl font-bold text-blue-700">$</span>
-                <span className="text-5xl font-bold text-slate-900">40</span>
+                <span className="text-5xl font-bold text-slate-900">90</span>
                 <span className="text-slate-500 mb-1">/mo</span>
               </div>
               <p className="mt-2 text-slate-600">
-                Up to <span className="font-semibold text-slate-900">100</span> transactions/month
+                Up to <span className="font-semibold text-slate-900">200</span> transactions/month
               </p>
 
               <div className="mt-6 w-full border-t border-slate-100 pt-6">
@@ -277,16 +277,16 @@ export default function MimapWebsite() {
 
                 <div className="mt-8 flex items-end justify-center gap-1">
                   <span className="text-2xl font-bold text-blue-700">$</span>
-                  <span className="text-5xl font-bold text-slate-900">70</span>
+                  <span className="text-5xl font-bold text-slate-900">215</span>
                   <span className="text-slate-500 mb-1">/mo</span>
                 </div>
                 <p className="mt-2 text-slate-600">
-                  Up to <span className="font-semibold text-slate-900">200</span> transactions/month
+                  Up to <span className="font-semibold text-slate-900">500</span> transactions/month
                 </p>
 
                 <div className="mt-6 w-full border-t border-slate-100 pt-6">
                   <p className="text-sm font-medium text-emerald-600">Annual Price (Save 14.3%)</p>
-                  <p className="mt-1 text-2xl font-bold text-emerald-600">$60/mo</p>
+                  <p className="mt-1 text-2xl font-bold text-emerald-600">$184.25/mo</p>
                 </div>
 
                 <button className="mt-8 w-full bg-blue-700 hover:bg-blue-800 text-white py-4 rounded-2xl font-semibold shadow-lg transition">
@@ -308,16 +308,16 @@ export default function MimapWebsite() {
 
               <div className="mt-8 flex items-end justify-center gap-1">
                 <span className="text-2xl font-bold text-blue-700">$</span>
-                <span className="text-5xl font-bold text-slate-900">120</span>
+                <span className="text-5xl font-bold text-slate-900">400</span>
                 <span className="text-slate-500 mb-1">/mo</span>
               </div>
               <p className="mt-2 text-slate-600">
-                Up to <span className="font-semibold text-slate-900">400</span> transactions/month
+                Up to <span className="font-semibold text-slate-900">1000</span> transactions/month
               </p>
 
               <div className="mt-6 w-full border-t border-slate-100 pt-6">
                 <p className="text-sm font-medium text-emerald-600">Annual Price (Save 16.7%)</p>
-                <p className="mt-1 text-2xl font-bold text-emerald-600">$100/mo</p>
+                <p className="mt-1 text-2xl font-bold text-emerald-600">$333.2/mo</p>
               </div>
 
               <button className="mt-8 w-full border border-blue-700 text-blue-700 hover:bg-blue-50 py-4 rounded-2xl font-semibold transition">
@@ -406,9 +406,9 @@ export default function MimapWebsite() {
                   </thead>
                   <tbody>
                     {[
-                      ['Starter', '$0.40'],
-                      ['Growth', '$0.35'],
-                      ['Professional', '$0.30'],
+                      ['Starter', '$0.45'],
+                      ['Growth', '$0.43'],
+                      ['Professional', '$0.4'],
                     ].map(([plan, rate], i) => (
                       <tr key={plan} className={i !== 2 ? 'border-t border-slate-100' : ''}>
                         <td className="px-5 py-4 font-semibold text-slate-900">{plan}</td>
