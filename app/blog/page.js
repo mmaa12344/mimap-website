@@ -19,6 +19,12 @@ const posts = [
     description:
       "Behind on your books? Here's how catch-up bookkeeping works.",
   },
+  {
+    slug: "job-costing-for-contractors-quickbooks",
+    title: "Job Costing for Contractors in QuickBooks",
+    description:
+      "Learn how job costing works in QuickBooks and why it's essential for contractors to track profitability on every project.",
+  },
 ]
 
 export const metadata = {
