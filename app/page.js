@@ -250,7 +250,7 @@ export default function MimapWebsite() {
 
               <div className="mt-6 w-full border-t border-slate-100 pt-6">
                 <p className="text-sm font-medium text-emerald-600">Annual Price (Save 12.5%)</p>
-                <p className="mt-1 text-2xl font-bold text-emerald-600">$35/mo</p>
+                <p className="mt-1 text-2xl font-bold text-emerald-600">$78.75/mo</p>
               </div>
 
               <button className="mt-8 w-full border border-blue-700 text-blue-700 hover:bg-blue-50 py-4 rounded-2xl font-semibold transition">
